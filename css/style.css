@@ -15,7 +15,8 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -90,4 +91,32 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.mobile {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    margin-bottom: 7px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .mobile {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 300px) {
+  .email-link {
+    font-size: 18px;
+  }
 }
